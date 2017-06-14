@@ -1,7 +1,7 @@
 # doctor
 
 > A Vue.js project
-
+git colone https://github.com/yaowengang/vue-doctor.git
 ## Build Setup
 
 ``` bash
