@@ -1,0 +1,75 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr,div{margin: 0;padding: 0}
+body,button,input,select,textarea,header{font-family: 微软雅黑, "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;	font-weight: normal}
+li {  list-style: none;}
+fieldset,img {  border: 0;}
+table {  border-collapse: collapse;  border-spacing: 0;}
+q:before,q:after {  content: "";}
+button,input,select,textarea {  font-size: 100%;}
+legend {  color: #000000;}
+small {  font-size: 12px;}
+hr {  border: none;  height: 1px;}
+a {  text-decoration: none;}
+a:hover {  text-decoration: none;}
+.clear:after {content: ".";	display: block;	height: 0;	clear: both;  visibility: hidden;}
+.clear {  zoom: 1;}
+i{font-style:normal}
+/* CSS Reset*/
+a {background: transparent;	text-decoration: none;	color: #000;}
+a:active {outline: 0;}
+b,strong {  font-weight: bold;}
+dfn {font-style: normal;}
+img {border: 0;	vertical-align: middle;}
+* {-webkit-tap-highlight-color: rgba(0,0,0,0);  -webkit-tap-highlight-color: transparent;  /* For some Androids */  outline: none;	box-sizing: border-box;}
+input, textarea, button {border: 0;	margin: 0;	padding: 0;	font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;}
+textarea {resize: none;}
+table {border-collapse: collapse;	border-spacing: 0;}
+td, th {padding: 0;}
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {margin: 0;}
+ul, ol, li, dl, dd {margin: 0;	padding: 0;}
+ul, ol {list-style: none;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #ccc;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ccc;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #ccc;}
+.clearfix:after {content: ".";	display: block;	height: 0;	clear: both;	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block !important;}
+/* End hide from IE-mac */
+/*Reset End*/
+
+/*color table*/
+.bg_00ced6{background: #00ced6;}
+.bg_f6f6f6{background: #f6f6f6;}
+
+.bg_ffa47f{background: #ffa47f;}
+
+.bg_4e9bea{background: #4e9bea;}
+.bg_19dcbe{background: #19dcbe;}
+
+.bg_00ced6{background: #00ced6;}
+.bg_03a9f4{background: #03a9f4;}
+.bg_ec8b0f{background: #ec8b0f;}
+.bg_f8758a{background: #f8758a;}
+
+.bg_99d87a{background: #99d87a;}
+.bg_4e9bea{background: #4e9bea;}
+.bg_19dcbe{background: #19dcbe;}
+.bg_99d87a{background: #99d87a;}
+
+.color_03a9f4{color: #03a9f4;}
+.color_ffa47f{color: #ffa47f;}
+.color_fbbc42{color: #fbbc42!important;}
+
+
+/*border*/
+.border_F6F6F6_right{
+	border-right: 1px solid #F6F6F6;
+}
+.border_F6F6F6_bottom{
+	border-bottom: 1px solid #F6F6F6;
+}
+.take_top{
+	margin-top: 1rem;
+}
