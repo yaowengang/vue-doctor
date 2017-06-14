@@ -1,10 +1,13 @@
 # doctor
 
 > A Vue.js project
-git colone https://github.com/yaowengang/vue-doctor.git
+
 ## Build Setup
 
 ``` bash
+#git
+git colone https://github.com/yaowengang/vue-doctor.git
+
 # install dependencies
 npm install
 
