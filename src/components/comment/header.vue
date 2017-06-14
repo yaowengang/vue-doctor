@@ -2,9 +2,7 @@
     <header>
         <i class="fa fa-angle-left"></i>
         <h1>首页</h1>
-        <i>
-            <img src="/static/images/health_2.png">
-        </i>
+        <i class="fa fa-search"></i>
     </header>
 </template>
 
@@ -26,13 +24,13 @@ header {
         height:4.5rem;
         display: inline-block;
         line-height:4.5rem;
-        font-size:3.6rem;
+        font-size:2rem;
         color: #4f4f4f;
+        text-align: center;        
         &:nth-of-type(1) {
-            margin-left: 1.4rem;
+        font-size: 3rem;
         }
         &:nth-of-type(2) {
-            margin-right: 1.4rem;
             float: right;
         }
         img {
