@@ -8,6 +8,9 @@
 # git
 git colone git@github.com:yaowengang/vue-doctor.git
 
+#进入项目
+cd vue-doctor
+
 # install dependencies
 npm install
 
