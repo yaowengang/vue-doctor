@@ -5,12 +5,11 @@
 ## Build Setup
 
 ``` bash
+# git
+git colone git@github.com:yaowengang/vue-doctor.git
 
 # install dependencies
 npm install
-
-# git
-git colone https://github.com/yaowengang/vue-doctor.git
 
 # serve with hot reload at localhost:8080
 npm run dev
