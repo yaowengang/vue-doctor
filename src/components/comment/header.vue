@@ -27,7 +27,7 @@ header {
         display: inline-block;
         line-height:4.5rem;
         font-size:3.6rem;
-        color: #4f4f4f;
+        color: #ffffff;
         &:nth-of-type(1) {
             margin-left: 1.4rem;
         }
