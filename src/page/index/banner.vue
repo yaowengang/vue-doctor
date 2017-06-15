@@ -10,12 +10,10 @@
           <img :src='imgSrc.src'>
         </a>
       </div>
-
       <!--支持循环，需要重复图片节点-->
       <div class="mui-slider-item ">
         <a href="#"><img :src="firstImg" /></a>
       </div>
-
     </div>
     <div class="mui-slider-indicator">
       <div v-for="list in bannerImg" class="mui-indicator" :class="'mui-'+ list.active"></div>

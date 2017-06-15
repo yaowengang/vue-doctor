@@ -11,7 +11,7 @@ export default {
   data () {
     return {
       items: [
-                { text: '首页', link: 'index' },
+                { text: '首页', link: 'home' },
                 { text: '商城', link: 'shop' },
                 { text: '管理', link: 'health-center' },
                 { text: '社区', link: 'comunity' },
