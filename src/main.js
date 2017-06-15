@@ -5,6 +5,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import Index from './components/index/index.vue'
+import Shop from './components/shop/shop.vue'
+import Health from './components/health/health-center.vue'
+import Comunity from './components/comunity/comunity.vue'
+import Personal from './components/personal/personal-center.vue'
 
 Vue.config.debug = true
 Vue.use(VueRouter)
@@ -27,6 +32,26 @@ const router = new VueRouter({
     {
       path: '/second',
       component: secondcomponent
+    },
+    {
+      path: '/index',
+      component: Index
+    },
+    {
+      path: '/shop',
+      component: Shop
+    },
+    {
+      path: '/health-center',
+      component: Health
+    },
+    {
+      path: '/comunity',
+      component: Comunity
+    },
+    {
+      path: '/personal-center',
+      component: Personal
     }
   ]
 })
