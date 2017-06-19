@@ -1,5 +1,3 @@
-import App from '../App'
-
 const Home = r => require.ensure([], () => r(require('../page/index/index')), 'Home')
 const Shop = r => require.ensure([], () => r(require('../page/shop/shop')), 'Shop')
 const Health = r => require.ensure([], () => r(require('../page/health/health-center')), 'Health')
@@ -8,31 +6,30 @@ const Personal = r => require.ensure([], () => r(require('../page/personal/perso
 
 export default [{
   path: '/',
-  component: App,
-  children: [
-    {
-      path: '',
-      redirect: '/home'
-    },
-    {
-      path: '/home',
-      component: Home
-    },
-    {
-      path: '/shop',
-      component: Shop
-    },
-    {
-      path: '/health-center',
-      component: Health
-    },
-    {
-      path: '/comunity',
-      component: Comunity
-    },
-    {
-      path: '/personal-center',
-      component: Personal
-    }
-  ]
-}]
+  component: Home
+},
+{
+  path: '',
+  redirect: '/home'
+},
+{
+  path: '/home',
+  component: Home
+},
+{
+  path: '/shop',
+  component: Shop
+},
+{
+  path: '/health-center',
+  component: Health
+},
+{
+  path: '/comunity',
+  component: Comunity
+},
+{
+  path: '/personal-center',
+  component: Personal
+}
+]
